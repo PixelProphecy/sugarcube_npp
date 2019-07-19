@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Sugarcube 2018" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">++ + - += -= /= *= * -- ( ) === !== == != &gt; &gt;= &lt; &lt;= ! &amp;&amp; ||</Keywords>
+            <Keywords name="Operators2">/ to is isnot eq neq gt gte lt lte not and or def ndef</Keywords>
+            <Keywords name="Folders in code1, open">&lt;&lt;</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">&lt;&lt;/</Keywords>
+            <Keywords name="Folders in code2, open">&quot;&lt;&lt;if&quot;</Keywords>
+            <Keywords name="Folders in code2, middle">&quot;&lt;&lt;else&quot; &quot;&lt;&lt;elseif&quot;</Keywords>
+            <Keywords name="Folders in code2, close">&quot;&lt;&lt;/if&quot;</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">set capture /capture unset remember forget run script /script&#x000D;&#x000A;actions back return choice</Keywords>
+            <Keywords name="Keywords2">if /if else elseif for /for break continue switch /switch case goto repeat /repeat timed next /timed stop default</Keywords>
+            <Keywords name="Keywords3">button /button link /link linkappend /linkappend linkprepend /linkprepend linkreplace /linkreplace listbox /listbox radiobutton textarea textbox checkbox include nobr /nobr print silently /silently&#x000D;&#x000A;= - widget /widget</Keywords>
+            <Keywords name="Keywords4">addclass append /append copy prepend /prepend remove removeclass replace /replace toggleclass&#x000D;&#x000A;audio cacheaudio createaudiogroup /createaudiogroup createplaylist /createplaylist masteraudio removeplaylist waitforaudio&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords5">$&#x000D;&#x000A; $args&#x000D;&#x000A; Config&#x000D;&#x000A; Dialog&#x000D;&#x000A; Engine&#x000D;&#x000A; jQuery&#x000D;&#x000A; l10nStrings&#x000D;&#x000A; LoadScreen&#x000D;&#x000A; Macro&#x000D;&#x000A; Passage&#x000D;&#x000A; postdisplay&#x000D;&#x000A; postrender&#x000D;&#x000A; predisplay&#x000D;&#x000A; prehistory&#x000D;&#x000A; prerender&#x000D;&#x000A; Save&#x000D;&#x000A; Setting&#x000D;&#x000A; settings&#x000D;&#x000A; setup&#x000D;&#x000A; State&#x000D;&#x000A; Story&#x000D;&#x000A; UI&#x000D;&#x000A; UIBar&#x000D;&#x000A;&#x000D;&#x000A; :passageinit&#x000D;&#x000A; :passagestart&#x000D;&#x000A; :passagerender&#x000D;&#x000A; :passagedisplay&#x000D;&#x000A; :passageend&#x000D;&#x000A;&#x000D;&#x000A; prehistory&#x000D;&#x000A; predisplay&#x000D;&#x000A; prerender&#x000D;&#x000A; postrender&#x000D;&#x000A; postdisplay&#x000D;&#x000A;&#x000D;&#x000A; Dialog.addClickHandler(&#x000D;&#x000A; Dialog.append(&#x000D;&#x000A; Dialog.body(&#x000D;&#x000A; Dialog.close(&#x000D;&#x000A; Dialog.isopen(&#x000D;&#x000A; Dialog.open(&#x000D;&#x000A; Dialog.setup(&#x000D;&#x000A; Dialog.wiki(&#x000D;&#x000A;&#x000D;&#x000A; Engine.lastPlay&#x000D;&#x000A; Engine.state&#x000D;&#x000A; Engine.backward(&#x000D;&#x000A; Engine.forward(&#x000D;&#x000A; Engine.go(&#x000D;&#x000A; Engine.goTo(&#x000D;&#x000A; Engine.isIdle(&#x000D;&#x000A; Engine.isPlaying(&#x000D;&#x000A; Engine.isRendering(&#x000D;&#x000A; Engine.play(&#x000D;&#x000A; Engine.restart(&#x000D;&#x000A; Engine.show(&#x000D;&#x000A; :enginerestart&#x000D;&#x000A;&#x000D;&#x000A; LoadScreen.lock(&#x000D;&#x000A; LoadScreen.unlock(&#x000D;&#x000A;&#x000D;&#x000A; Macro.add(&#x000D;&#x000A; Macro.delete(&#x000D;&#x000A; Macro.get(&#x000D;&#x000A; Macro.has(&#x000D;&#x000A; Macro.tags.get(&#x000D;&#x000A; Macro.tags.has(&#x000D;&#x000A;&#x000D;&#x000A; Save.clear(&#x000D;&#x000A; Save.get(&#x000D;&#x000A; Save.ok(&#x000D;&#x000A;&#x000D;&#x000A; Save.slots.count(&#x000D;&#x000A; Save.slots.delete(&#x000D;&#x000A; Save.slots.get(&#x000D;&#x000A; Save.slots.has(&#x000D;&#x000A; Save.slots.isEmpty(&#x000D;&#x000A; Save.slots.length&#x000D;&#x000A; Save.slots.load(&#x000D;&#x000A; Save.slots.ok(&#x000D;&#x000A; Save.slots.save(&#x000D;&#x000A;&#x000D;&#x000A; Save.autosave.delete(&#x000D;&#x000A; Save.autosave.get(&#x000D;&#x000A; Save.autosave.has(&#x000D;&#x000A; Save.autosave.load(&#x000D;&#x000A; Save.autosave.ok(&#x000D;&#x000A; Save.autosave.save(&#x000D;&#x000A;&#x000D;&#x000A; Save.export(&#x000D;&#x000A; Save.import(&#x000D;&#x000A;&#x000D;&#x000A; Save.serialize(&#x000D;&#x000A; Save.deserialize(&#x000D;&#x000A;&#x000D;&#x000A; Setting.addHeader(&#x000D;&#x000A; Setting.addToggle(&#x000D;&#x000A; Setting.addList(&#x000D;&#x000A; Setting.addRange(&#x000D;&#x000A; Setting.load(&#x000D;&#x000A; Setting.reset(&#x000D;&#x000A; Setting.save(&#x000D;&#x000A; settings&#x000D;&#x000A;&#x000D;&#x000A; State.active&#x000D;&#x000A; State.bottom&#x000D;&#x000A; State.current&#x000D;&#x000A; State.length&#x000D;&#x000A; State.passage&#x000D;&#x000A; State.temporary&#x000D;&#x000A; State.size&#x000D;&#x000A; State.top&#x000D;&#x000A; State.turns&#x000D;&#x000A; State.variables&#x000D;&#x000A; State.getVar(&#x000D;&#x000A; State.has(&#x000D;&#x000A; State.hasPlayed(&#x000D;&#x000A; State.index(&#x000D;&#x000A; State.initPRNG(&#x000D;&#x000A; State.isEmpty(&#x000D;&#x000A; State.peek(&#x000D;&#x000A; State.random(&#x000D;&#x000A; State.setVar(&#x000D;&#x000A;&#x000D;&#x000A; Story.domId&#x000D;&#x000A; Story.title&#x000D;&#x000A; Story.get(&#x000D;&#x000A; Story.has(&#x000D;&#x000A; Story.lookup(&#x000D;&#x000A; Story.lookupWith(&#x000D;&#x000A;&#x000D;&#x000A; UI.alert(&#x000D;&#x000A; UI.jumpto(&#x000D;&#x000A; UI.restart(&#x000D;&#x000A; UI.saves(&#x000D;&#x000A; UI.settings(&#x000D;&#x000A; UI.share(&#x000D;&#x000A;&#x000D;&#x000A; UIBar.destroy(&#x000D;&#x000A; UIBar.stow(&#x000D;&#x000A; UIBar.unstow(&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords6">_&#x000D;&#x000A;Math.&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords7">clone( either( hasVisited( lastVisited( importScripts( importStyles( passage( previous( random( randomFloat( setPageElement( tags( temporary( time( turns( variables( visited( visitedTags(</Keywords>
+            <Keywords name="Keywords8">PassageDone&#x000D;&#x000A; PassageFooter&#x000D;&#x000A; PassageHeader&#x000D;&#x000A; PassageReady&#x000D;&#x000A; Start&#x000D;&#x000A; StoryAuthor&#x000D;&#x000A; StoryBanner&#x000D;&#x000A; StoryCaption&#x000D;&#x000A; StoryInit&#x000D;&#x000A; StoryInterface&#x000D;&#x000A; StoryMenu&#x000D;&#x000A; StorySettings&#x000D;&#x000A; StoryShare&#x000D;&#x000A; StorySubtitle&#x000D;&#x000A; StoryTitle&#x000D;&#x000A;&#x000D;&#x000A; bookmark&#x000D;&#x000A; nobr&#x000D;&#x000A; script&#x000D;&#x000A; stylesheet&#x000D;&#x000A; Twine.audio&#x000D;&#x000A; Twine.image&#x000D;&#x000A; Twine.video&#x000D;&#x000A; Twine.vtt&#x000D;&#x000A; widget&#x000D;&#x000A;</Keywords>
+            <Keywords name="Delimiters">00&lt;&lt; 01 02&gt;&gt; 03{ 03[ 04 05} 05] 06&quot; 07 08&quot; 09 10 11 12 13 14 15 16 17 18&lt; 19 20&gt; 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="DEDEDE" bgColor="474747" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="5ABE5C" bgColor="222222" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FFFFFF" bgColor="222222" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="80FFFF" bgColor="222222" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="D2512B" bgColor="222222" colorStyle="1" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="00FFFF" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="8080FF" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FFFF00" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FFBF00" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF80C0" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="80FF80" bgColor="222222" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="C0C0C0" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="FFFFFF" bgColor="222222" colorStyle="1" fontName="" fontStyle="7" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="9EBCBE" bgColor="222222" fontName="" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS2" fgColor="D6BE89" bgColor="3A3129" colorStyle="1" fontName="" fontStyle="0" nesting="67190786" />
+            <WordsStyle name="DELIMITERS3" fgColor="CECDB3" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="808000" bgColor="222222" fontName="" fontStyle="0" nesting="4" />
+            <WordsStyle name="DELIMITERS8" fgColor="FF00FF" bgColor="222222" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
